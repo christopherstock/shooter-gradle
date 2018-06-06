@@ -1,0 +1,12 @@
+
+# IDEA and ECLIPSE settings folders
+/.classpath
+/.idea
+/.project
+/.settings
+
+# maven build folder
+/target
+
+# IDEA module files
+*.iml
