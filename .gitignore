@@ -5,8 +5,9 @@
 /.project
 /.settings
 
-# maven build folder
-/target
+# gradle build folders
+/build
+/gradle
 
 # IDEA module files
 *.iml
