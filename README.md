@@ -6,12 +6,13 @@ Visit [http://shooter.jenetic.de](http://shooter.jenetic.de)
 
 This domain must be added to your [Java Exception Site List](https://www.java.com/en/download/faq/exception_sitelist.xml).
 
-## Installing all Java Dependencies and Build the Project
+## Installing all Java and Gradle Dependencies 
 ```
-gradle ..
+gradle install
 ```
 
 ## Building and running the project
 ```
-gradle ..
+gradle build
+gradle run
 ```

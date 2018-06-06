@@ -1,7 +1,7 @@
 
+apply plugin: 'groovy'
 apply plugin: 'java'
 apply plugin: 'application'
-apply plugin: 'maven'
 
 group = 'de.christopherstock.shooter'
 version = '0.4.2'
@@ -12,7 +12,9 @@ sourceCompatibility = 1.6
 targetCompatibility = 1.6
 
 repositories {
-    maven { url "http://repo.maven.apache.org/maven2" }
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
 }
 
 dependencies {
@@ -26,3 +28,7 @@ dependencies {
 }
 
 mainClassName = 'de.christopherstock.shooter.Shooter'
+
+run {
+    systemProperty 'java.library.path', '_ASSETS\\natives'
+}
