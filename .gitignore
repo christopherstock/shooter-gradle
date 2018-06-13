@@ -8,6 +8,7 @@
 # gradle build folders
 /build
 /gradle
+/.gradle
 
 # IDEA module files
 *.iml
